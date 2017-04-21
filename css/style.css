@@ -1,0 +1,180 @@
+body {
+  background-color: #000000;
+  margin:0px;
+  padding: 0px;
+  height: 900px;
+}
+
+#board {
+
+  margin: 10px 30px;
+  height: 600px;
+  width: 1800px;
+  background-image: url(../images/fondoo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  border: 4px solid #000090;
+  border-top-left-radius: 3em 5em;
+  border-top-right-radius: 3em 5em;
+  border-bottom-right-radius: 3em 5em;
+  border-bottom-left-radius: 3em 5em;
+}
+
+#gameO{
+  background-image: url(../images/game-over.jpg);
+  position: absolute;
+  height: 600px;
+  width: 1900px;
+}
+.paddle {
+  height: 110px;
+  width: 30px;
+  position: absolute;
+  border-top-left-radius: 2em 2em;
+  border-top-right-radius: 2em 2em;
+  border-bottom-right-radius: 2em 2em;
+  border-bottom-left-radius: 2em 2em;
+}
+
+#paddle1 {
+  background-color: red;
+  top: 300px;
+  left: 65px;
+}
+
+#paddle2 {
+  background-color: blue;
+  top: 300px;
+  right: 65px;
+}
+
+#net {
+}
+
+#ball {
+  background-image: url(../images/coco.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+  top: 300px;
+  left: 900px;
+  position: absolute;
+}
+
+#ball-object1{
+  background-image: url(../images/pinia3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  border: 3px solid yellow;
+  transform: rotate(45deg);
+}
+
+#ball-object2{
+  background-image: url(../images/pinia3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  border: 3px solid yellow;
+  transform: rotate(45deg);
+}
+
+#ball-object3{
+  background-image: url(../images/pinia3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+
+    position: absolute;
+    top: 100px;
+    left: 1400px;
+    border: 3px solid yellow;
+    transform: rotate(325deg);
+}
+
+#ball-object4{
+  background-image: url(../images/pinia3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+  position: absolute;
+  top: 400px;
+  left: 1400px;
+  border: 3px solid yellow;
+  transform: rotate(325deg);
+}
+
+.score span {
+}
+
+.left {
+}
+
+.right {
+}
+
+button {
+  background-color: white;
+  border-radius: 5%;
+  height: 40px;
+  width: 90px;
+  position: absolute;
+  margin: 700px 900px;
+
+}
+h1{
+}
+#score1{
+  border: 5px solid green;
+  border-radius: 10px;
+  position: absolute;
+  top: 700px;
+  left:200px;
+  width: 150px;
+  height: 100px;
+  background-color: #007700;
+  text-align: center;
+}
+#score2{
+  border: 5px solid green;
+  border-radius: 10px;
+  position: absolute;
+  top: 700px;
+  left: 1500px;
+  width: 150px;
+  height: 100px;
+  background-color: #007700;
+  text-align: center;
+}
+#winner {
+}
+
+#winner.hide {
+}
+
+@-webkit-keyframes slide {
+    100% { top: 20px; }
+}
+
+@keyframes slide {
+    100% { top: 20px; }
+}
